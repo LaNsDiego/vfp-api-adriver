@@ -1,0 +1,18 @@
+{
+    "version": "1.0.0",
+    "tasks": [
+      {
+        "label": "Launch app", // Name of task
+        "type": "shell",
+        "command": "php5638b -S 0.0.0.0:7000 -t .", // Enter your command here
+        "group": "none",
+        "presentation": {
+          "reveal": "always",
+          "panel": "new"
+        },
+        "runOptions": {
+          "runOn": "folderOpen"
+        }
+      }
+    ]
+  }
